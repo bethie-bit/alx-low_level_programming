@@ -1,3 +1,2 @@
 #!/bin/bash
-shell_script
-
+gcc -E $CFILE -o c
