@@ -2,11 +2,11 @@
 int _putchar(char c);
 
 /**
-	* main - entry point
-	*
-	* Return: 0 Success
-**/ 
-	int main(void)
+ * main - entry point
+ *
+ * Return: 0 Success
+*/ 
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
