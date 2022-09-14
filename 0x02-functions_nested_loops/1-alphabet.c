@@ -1,19 +1,15 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * print_alphabet - print a-z
- *
- * Return: void
- */
+ * print_alphabet - utilizes on the _putchar function to print
+ *                 the alphabet a - z
+*/
+
 void print_alphabet(void)
 {
-	int alph;
+	int ch;
 
-	alph = 'a';
-	while (alph <= 'z')
-	{
-		_putchar(alph);
-		++alph;
-	}
+	for (ch = 'a'; ch <= 'z'; ++ch)
+		_putchar(ch);
 	_putchar('\n');
 }
