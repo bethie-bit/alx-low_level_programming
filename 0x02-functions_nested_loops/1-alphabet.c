@@ -1,20 +1,19 @@
 #include "main.h"
 
-/** 
- * print_alphabeth - print a - z
+/**
+ * print_alphabet - print a-z
  *
  * Return: void
  */
- void print_alphabet(void)
+void print_alphabeth(void)
 {
 	char alph;
 
 	alph = 'a';
 	while (alph <= 'z')
-	alph++;
 	{
 		_putchar(alph);
 		alph++;
 	}
-	_putchar('\n');
+	 putchar('\n');
 }
