@@ -5,15 +5,15 @@
  *
  * Return: void
  */
-void print_alphabeth(void)
+void print_alphabet(void)
 {
-	char alph;
+	int alph;
 
 	alph = 'a';
 	while (alph <= 'z')
 	{
 		_putchar(alph);
-		alph++;
+		++alph;
 	}
-	 putchar('\n');
+	_putchar('\n');
 }
