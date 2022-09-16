@@ -2,17 +2,20 @@
 #include <stdio.h>
 
 /**
- * main int _isupper(int c);
+ * _isupper - checks if c is uppercase
  *
- * Return 1(uppercase), 0(other)
+ * Return: i=1 i=0
  */
 int _isupper(int c);
 {
 	int i;
+	
+	if ((c <= "A") && (c >= "Z"))
 
-	if ((c >= 'A') && (c <= 'Z'))
+
+
 		i = 1
-	else
+	else 
 		i = 0;
 	return (i);
 }
